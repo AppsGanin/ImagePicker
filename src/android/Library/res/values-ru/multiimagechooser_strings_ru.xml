@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="multi_app_name">Выбор изображений</string>
+    <string name="error_database">При открытии базы данных изображений произошла ошибка</string>
+    <string name="requesting_thumbnails">Загрузка миниатюр</string>
+    <string name="multi_image_picker_processing_images_title">Обработка изображений</string>
+    <string name="multi_image_picker_processing_images_message">Это может занять некоторое время</string>
+    <string name="discard">Отмена</string>
+    <string name="done">Ок</string>
+    <string name="max_count_photos_title">Максимум изображений: %d</string>
+    <string name="max_count_photos_message">За один раз можно выбрать изображений: %d</string>
+</resources>

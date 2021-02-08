@@ -2,7 +2,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
   id="cordova-plugin-telerik-imagepicker"
-  version="2.3.5">
+  version="2.3.7">
 
     <name>ImagePicker</name>
 
@@ -84,6 +84,7 @@
         <resource-file src="src/ios/GMImagePicker/pt.lproj" />
         <resource-file src="src/ios/GMImagePicker/pl.lproj" />
         <resource-file src="src/ios/GMImagePicker/zh-Hans.lproj" />
+        <resource-file src="src/ios/GMImagePicker/ru.lproj" />
 
         <framework src="Accelerate.framework" />
         <framework src="Security.framework" />
@@ -141,7 +142,6 @@
         <resource-file src="src/android/Library/res/layout/actionbar_done_button.xml" target="res/layout/actionbar_done_button.xml"/>
         <resource-file src="src/android/Library/res/layout/multiselectorgrid.xml" target="res/layout/multiselectorgrid.xml"/>
         <resource-file src="src/android/Library/res/values/multiimagechooser_strings_en.xml" target="res/values/multiimagechooser_strings_en.xml"/>
-        <resource-file src="src/android/Library/res/values/themes.xml" target="res/values/themes.xml"/>
 
         <resource-file src="src/android/Library/res/values-de/multiimagechooser_strings_de.xml" target="res/values-de/multiimagechooser_strings_de.xml"/>
         <resource-file src="src/android/Library/res/values-es/multiimagechooser_strings_es.xml" target="res/values-es/multiimagechooser_strings_es.xml"/>
@@ -152,6 +152,7 @@
         <resource-file src="src/android/Library/res/values-ko/multiimagechooser_strings_ko.xml" target="res/values-ko/multiimagechooser_strings_ko.xml"/>
         <resource-file src="src/android/Library/res/values-pt/multiimagechooser_strings_pt.xml" target="res/values-pt/multiimagechooser_strings_pt.xml"/>
         <source-file src="src/android/Library/res/values-pl/multiimagechooser_strings_pl.xml" target-dir="res/values-pl"/>
+        <resource-file src="src/android/Library/res/values-ru/multiimagechooser_strings_ru.xml" target="res/values-ru/multiimagechooser_strings_ru.xml"/>
 
         <framework src="src/android/ignorelinterrors.gradle" custom="true" type="gradleReference"/>
         <framework src="src/android/androidtarget.gradle" custom="true" type="gradleReference"/>
